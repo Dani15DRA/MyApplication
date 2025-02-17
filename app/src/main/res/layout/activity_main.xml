@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:id="@+id/mainLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto"
+        android:text="Texto original"
+        style="@style/CustomTextView"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputNombre"
+        android:hint="Ingrese su nombre"
+        android:textSize="18sp"
+        style="@style/CustomEditText"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonToast"
+        android:text="Mostrar Nombre"
+        style="@style/CustomButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton"
+        android:text="Cambiar Texto"
+        style="@style/CustomButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonColor"
+        android:text="Cambiar Color"
+        style="@style/CustomButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonEstilo"
+        android:text="Cambiar Estilo"
+        style="@style/CustomButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonRandom"
+        android:text="Estilo Aleatorio"
+        style="@style/CustomButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonFondo"
+        android:text="Cambiar Fondo"
+        style="@style/CustomButton"/>
+</LinearLayout>
